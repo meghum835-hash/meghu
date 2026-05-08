@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Certifications</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">Portfolio.</a>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="education.html" class="nav-link">Education</a>
+                <a href="certifications.html" class="nav-link">Certifications</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <button class="theme-toggle" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="hamburger" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section container">
+            <h2 class="section-title fade-in">Certifications</h2>
+            <div class="grid-cards fade-in delay-200">
+                <!-- Certificate 1 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1523289203814-7c4ee3a90757?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="AWS Certificate">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">AWS Certified Solutions Architect</h3>
+                        <p>Earned: May 2025</p>
+                        <p style="margin-bottom: 1.5rem;">Demonstrates expertise in designing distributed systems on AWS.</p>
+                        <a href="certificate.pdf" target="_blank" class="btn btn-primary" style="margin-top: auto; width: fit-content;">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Placeholder 1 -->
+                <div class="card">
+                    <div class="card-img" style="display: flex; align-items: center; justify-content: center; font-size: 3rem; color: var(--secondary-color);">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Future Certification</h3>
+                        <p>Status: In Progress</p>
+                        <p style="margin-bottom: 1.5rem;">Currently preparing for the Google Cloud Professional Developer certification.</p>
+                        <button class="btn btn-outline" disabled style="margin-top: auto; width: fit-content; opacity: 0.6; cursor: not-allowed;">Pending</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
